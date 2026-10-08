@@ -11,9 +11,9 @@ export const Footer = () => {
   return (
     <footer className="bg-[#060911] border-t border-slate-800/80 py-12 text-left relative font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-10 border-b border-slate-800/80">
-          
+
           {/* Identity */}
           <div className="space-y-1.5">
             <div className="flex items-center gap-2.5">
@@ -79,7 +79,6 @@ export const Footer = () => {
             © 2026 Puja Bhatt. All rights reserved.
           </div>
           <div className="flex items-center gap-2 text-[11px]">
-            <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
             <span>Proof-of-Work Portfolio • Far Western University, Nepal</span>
           </div>
         </div>
