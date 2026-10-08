@@ -1,0 +1,69 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 720 >>
+stream
+BT
+/F1 18 Tf
+50 740 Td
+(PUJA BHATT) Tj
+/F1 11 Tf
+0 -20 Td
+(Cybersecurity | SOC Operations | Network Security) Tj
+0 -15 Td
+(Kanchanpur, Nepal | bhattpuja2059@gmail.com | github.com/Puja2059) Tj
+0 -30 Td
+(EDUCATION) Tj
+0 -15 Td
+(Bachelor of Computer Engineering - Far Western University, Nepal) Tj
+0 -30 Td
+(EXPERIENCE) Tj
+0 -15 Td
+(Virtual SOC Analyst Trainee - TechBiz Academy [Aug 2026 - Sept 2026]) Tj
+0 -15 Td
+(- Monitored endpoint & network telemetry, analyzed authentication events) Tj
+0 -15 Td
+(- Investigated brute-force logon failures and prepared incident reports) Tj
+0 -30 Td
+(KEY PROJECTS & LABS) Tj
+0 -15 Td
+(1. Wazuh SOC Monitoring & Windows Detection Lab [SIEM & XML Rules]) Tj
+0 -15 Td
+(2. NitiShield AI - Web Vulnerability Assessment Platform [OWASP ZAP, TLS]) Tj
+0 -15 Td
+(3. Linux Security Telemetry & Log Forensics Lab [/var/log/auth.log, PAM]) Tj
+0 -15 Td
+(4. Basic Network Sniffer - Packet Capture Tool [Raw Sockets, Scapy, TCP/IP]) Tj
+0 -15 Td
+(5. Cisco Switched Network Security & Routing [VLANs, 802.1Q, Port Security]) Tj
+0 -30 Td
+(SKILLS) Tj
+0 -15 Td
+(Wazuh, SIEM, Wireshark, TCP/IP, Linux PAM, Windows Events, Python, Cisco) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000001017 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1088
+%%EOF
