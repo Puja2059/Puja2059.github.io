@@ -249,7 +249,7 @@ export const Contact = () => {
                 {/* Submit action */}
                 <div className="pt-2 flex flex-wrap items-center justify-between gap-3">
                   <div className="text-[11px] font-mono text-slate-400">
-                    * Uses direct mailto protocol (no fake backend storage)
+                    
                   </div>
 
                   <button

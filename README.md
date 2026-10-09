@@ -35,8 +35,6 @@ Specifically designed to position **Puja Bhatt** as a credible **Cybersecurity /
 │   │   ├── Experience.jsx      # Virtual SOC Analyst Trainee program details
 │   │   ├── Skills.jsx          # Categorized domain skills with practical context notes
 │   │   ├── Training.jsx        # TryHackMe foundational training rooms
-│   │   ├── Resume.jsx          # CV showcase box with View/Download buttons
-│   │   ├── ResumeModal.jsx     # ATS-ready printable resume modal viewer
 │   │   ├── Contact.jsx         # Direct email copy, LinkedIn/GitHub links & mailto form
 │   │   ├── Footer.jsx          # Professional footer with verified profile links
 │   │   └── Icons.jsx           # Clean SVG brand icons (GitHub, LinkedIn)

@@ -3,7 +3,7 @@ import {
   Shield, 
   Terminal, 
   ArrowRight, 
-  FileText, 
+  Download, 
   Mail, 
   CheckCircle2, 
   Cpu, 
@@ -17,7 +17,7 @@ import {
 import { Github, Linkedin } from './Icons';
 import { personalInfo } from '../data/profile';
 
-export const Hero = ({ onOpenResume }) => {
+export const Hero = () => {
   const [activeTab, setActiveTab] = useState('wazuh');
 
   const telemetryTabs = {
@@ -125,13 +125,15 @@ Risk Level: Elevated | Subsystem: Linux PAM`
                 <ArrowRight className="w-4 h-4" />
               </a>
 
-              <button
-                onClick={onOpenResume}
+              <a
+                href={`${import.meta.env.BASE_URL}Puja_Bhatt_Resume.pdf`}
+                download="Puja_Bhatt_Cybersecurity_Resume.pdf"
                 className="inline-flex items-center gap-2 px-4 py-3 rounded-lg text-sm font-mono font-medium bg-slate-900 text-slate-200 border border-slate-700 hover:border-cyan-500/70 hover:text-cyan-300 hover:bg-slate-800/80 transition-all cursor-pointer"
+                title="Download Resume (PDF)"
               >
-                <FileText className="w-4 h-4 text-cyan-400" />
-                <span>Download / View Resume</span>
-              </button>
+                <Download className="w-4 h-4 text-cyan-400" />
+                <span>Download Resume (PDF)</span>
+              </a>
 
               <a
                 href="#contact"

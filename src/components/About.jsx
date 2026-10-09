@@ -5,7 +5,6 @@ import {
   Search, 
   Globe, 
   ArrowRight, 
-  GraduationCap, 
   Compass, 
   Terminal, 
   CheckCircle,
@@ -46,15 +45,10 @@ export const About = () => {
           {/* Left Column: Personal Narrative */}
           <div className="lg:col-span-6 space-y-5">
             <div className="bg-[#0d1322] border border-slate-800 rounded-xl p-6 sm:p-7 space-y-4 shadow-lg">
-              <div className="flex items-center gap-3 pb-3 border-b border-slate-800">
-                <div className="w-10 h-10 rounded-lg bg-cyan-950/80 border border-cyan-800/60 flex items-center justify-center text-cyan-400">
-                  <GraduationCap className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white text-base">Puja Bhatt</h3>
-                  <p className="text-xs font-mono text-cyan-400">{personalInfo.degree}</p>
-                  <p className="text-xs text-slate-400">{personalInfo.institution} • {personalInfo.location}</p>
-                </div>
+              <div className="pb-3 border-b border-slate-800">
+                <h3 className="font-semibold text-white text-base">Puja Bhatt</h3>
+                <p className="text-xs font-mono text-cyan-400">{personalInfo.degree}</p>
+                <p className="text-xs text-slate-400">{personalInfo.institution} • {personalInfo.location}</p>
               </div>
 
               {personalInfo.aboutNarrative.map((paragraph, idx) => (

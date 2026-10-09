@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Mail, ArrowUp } from 'lucide-react';
+import { Mail, ArrowUp } from 'lucide-react';
 import { Github, Linkedin } from './Icons';
 import { personalInfo } from '../data/profile';
 
@@ -16,14 +16,9 @@ export const Footer = () => {
 
           {/* Identity */}
           <div className="space-y-1.5">
-            <div className="flex items-center gap-2.5">
-              <div className="w-7 h-7 rounded-lg bg-slate-900 border border-cyan-500/40 flex items-center justify-center text-cyan-400">
-                <Shield className="w-4 h-4" />
-              </div>
-              <span className="font-mono text-base font-bold text-white tracking-wide">
-                {personalInfo.name}
-              </span>
-            </div>
+            <span className="font-mono text-base font-bold text-white tracking-wide block">
+              {personalInfo.name}
+            </span>
             <p className="text-xs font-mono text-cyan-400">
               Cybersecurity | SOC | Network Security
             </p>
